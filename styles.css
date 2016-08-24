@@ -1,15 +1,52 @@
 body {
-  //sitewide fonts here
+  font-family: 'Scope One', serif;
 }
 
 header {
-
+  background: #046380; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #7E8AA2 , #263248); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #7E8AA2, #263248); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #7E8AA2, #263248); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #7E8AA2 , #263248); /* Standard syntax */
+  height: 50px;
 }
 
 header nav {
-
+  padding-left: 50px;
 }
 
 header h1 {
-  
+  float: left;
+  background: url("./images/logo-default.jpeg") no-repeat;
+  height: 50px;
+  width: 50px;
+  text-indent: -9999px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 17px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #FFFFFF;
+}
+
+nav li:hover {
+  background: #3498DB;
+  color: #FFFAD5;
+  cursor: pointer;
+}
+
+ul {
+  display: inline-block;
+}
+
+.sign-in-button {
+  margin-top: 15px;
+  margin-right: 15px;
+  float: right;
+}
+
+@media (min-width: 700px) {
+
 }
