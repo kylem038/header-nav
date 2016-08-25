@@ -45,8 +45,46 @@ ul {
   margin-top: 15px;
   margin-right: 15px;
   float: right;
+  border-radius: 3px;
+  background-color: #E5E5E5;
 }
 
-@media (min-width: 700px) {
+.sign-in-button:hover {
+  background-color: #FFFFFF;
+}
+
+@media (max-width: 700px) {
+  body {
+
+  }
+
+  nav {
+
+  }
+
+  ul {
+    display: none;
+    flex-direction: column;
+    /*margin-left: 80%;*/
+  }
+
+  li {
+    background-color: #7E8AA2;
+    border: 2px solid black;
+  }
+
+  .dropdown {
+    background: url("./images/menu-128.png");
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+  }
+
+  .sign-in-button {
+    display: inline-flex;
+    margin-bottom: 20%
+  }
+
+  .show {display:inline-flex;}
 
 }
