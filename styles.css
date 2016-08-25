@@ -12,12 +12,13 @@ header {
 }
 
 header nav {
-  padding-left: 50px;
+  display: inline-flex;
 }
 
 header h1 {
   float: left;
   background: url("./images/logo-default.jpeg") no-repeat;
+  background-size: cover;
   height: 50px;
   width: 50px;
   text-indent: -9999px;
@@ -54,18 +55,15 @@ ul {
 }
 
 @media (max-width: 700px) {
-  body {
 
-  }
-
-  nav {
-
+  header nav {
+    display: inline-block;
+    justify-content: center;
   }
 
   ul {
     display: none;
     flex-direction: column;
-    /*margin-left: 80%;*/
   }
 
   li {
@@ -75,16 +73,11 @@ ul {
 
   .dropdown {
     background: url("./images/menu-128.png");
+    background-size: cover;
     height: 50px;
     width: 50px;
-    margin-left: 5px;
   }
 
-  .sign-in-button {
-    display: inline-flex;
-    margin-bottom: 20%
-  }
-
-  .show {display:inline-flex;}
+  .show {display: inline-flex;}
 
 }
