@@ -54,6 +54,56 @@ ul {
   background-color: #FFFFFF;
 }
 
+.content-wrap {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px 15px 0 15px;
+  height: 350px;
+  width: 98vw;
+}
+
+.content {
+  background: #141414;
+  color: white;
+  height: 340px;
+  font-size: 25px;
+  text-align: center;
+  width: 240px;
+}
+
+
+.content h1 {
+  margin: 15px 0;
+  text-shadow: -.25px 0 #fe8475, 0 .25px #fe8475, .25px 0 #fe8475, 0 -.25px #fe8475;
+}
+
+.content h2 {
+  text-shadow: none;
+}
+
+.content p {
+  margin: 40px 20px;
+  font-size: 15px
+}
+
+.divider1 {
+  margin-top: 30px;
+  border: 2px dashed #fe8475;
+}
+
+.divider2 {
+  margin-top: 30px;
+  border: 2px dashed #e7decf;
+}
+
+.divider3 {
+  margin-top: 30px;
+  border: 2px dashed #fe8475;
+}
+
 @media (max-width: 700px) {
 
   header nav {
