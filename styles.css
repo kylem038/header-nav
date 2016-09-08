@@ -101,6 +101,17 @@ ul {
   border: 2px dashed #e7decf;
 }
 
+/*start accordion*/
+
+.submenu {
+  display: none;
+}
+
+.is-expanded a {
+  color: red;
+  display: block;
+}
+
 @media (max-width: 700px) {
 
   header nav {
